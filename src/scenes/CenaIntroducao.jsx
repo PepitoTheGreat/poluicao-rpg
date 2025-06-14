@@ -57,14 +57,14 @@ function CenaIntroducao({ onConcluido }) {
             alt="Título: Poluição do Ar" 
             className="w-full max-w-2xl" // Ajuste o tamanho máximo se necessário
           />
-          <p className="text-xl md:text-3xl mt-8">interaja com a nossa cidade!</p>
+          <p className="text-xl md:text-3xl mt-8">Interaja com a nossa cidade!</p>
           <button
             onClick={onConcluido}
             className="mt-12 px-8 py-3 bg-blue-600 text-white font-bold rounded-lg text-xl hover:bg-blue-500 transition-colors"
           >
             Iniciar Experiência
           </button>
-          <p className="text-gray-400 mt-20 text-sm">
+          <p className="absolute bottom-5 text-gray-400 text-sm">
             Dica: aperte F11 para uma experiência em tela cheia.
           </p>
         </div>
