@@ -13,7 +13,7 @@ export const fontesPoluicao = [
     nome: 'Indústria',
     imagem: industriaImg,
     link: '/industria',
-    estilo: { top: '149px', left: '-72px', width: '715px', position: 'absolute' }
+    estilo: { top: '137px', left: '4px', width: '635px', position: 'absolute' }
   },
   {
     id: 'obra',
